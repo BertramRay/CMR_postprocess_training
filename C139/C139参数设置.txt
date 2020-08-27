@@ -1,0 +1,29 @@
+%%%%%%%%%%%%%%%%%%%
+%    参数设置     %
+%%%%%%%%%%%%%%%%%%%
+% 图像的长，宽
+xlength = 320;
+ylength = 320;
+% n-SD法常数
+n = 5;
+% 生长法去噪阈值
+groupnum = 60;
+% 边缘试探法扩展方块数量
+level = 4;
+% n-SD法所得的参考区域平均值与标准差
+valSD = 12;
+valMean = 75;
+% 种子点坐标
+seedx = 190;
+seedy = 142;
+% [seedx,seedy] = ginput(1);
+% 种子点作用半径
+seedRadius = 50;
+% 梯度作用半径
+gradientRadius = 50;
+% 选择Mask的起始与结束层面,默认1和60
+picstart = 1;
+picend = 60;
+% 梗死体积与ROI体积初始化
+MaskVolumn = 0;
+LGEVolumn = 0;
